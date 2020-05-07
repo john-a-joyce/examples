@@ -17,6 +17,7 @@ spec:
       labels:
         app: helloworld-{{ .Values.nsm.serviceName }}
         version: v1
+        nsm/servicename: helloworld.{{ .Values.nsm.clusterName }}.cnns-cisco.com
     spec:
       containers:
       - name: helloworld

@@ -9,6 +9,7 @@ replicaCount: 2
 
 nsm:
   serviceName: vl3-service
+  clusterName: cluster-default
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
